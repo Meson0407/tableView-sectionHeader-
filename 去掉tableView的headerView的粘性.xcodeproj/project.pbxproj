@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13547BE51E55477A00882164 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13547BE41E55477A00882164 /* main.m */; };
+		13547BE81E55477A00882164 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13547BE71E55477A00882164 /* AppDelegate.m */; };
+		13547BEB1E55477A00882164 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13547BEA1E55477A00882164 /* ViewController.m */; };
+		13547BEE1E55477A00882164 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13547BEC1E55477A00882164 /* Main.storyboard */; };
+		13547BF01E55477A00882164 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13547BEF1E55477A00882164 /* Assets.xcassets */; };
+		13547BF31E55477A00882164 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13547BF11E55477A00882164 /* LaunchScreen.storyboard */; };
+		13547BFE1E55477A00882164 /* __tableView_headerView___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13547BFD1E55477A00882164 /* __tableView_headerView___Tests.m */; };
+		13547C091E55477A00882164 /* __tableView_headerView___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13547C081E55477A00882164 /* __tableView_headerView___UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13547BFA1E55477A00882164 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13547BD81E55477A00882164 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13547BDF1E55477A00882164;
+			remoteInfo = "去掉tableView的headerView的粘性";
+		};
+		13547C051E55477A00882164 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13547BD81E55477A00882164 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13547BDF1E55477A00882164;
+			remoteInfo = "去掉tableView的headerView的粘性";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13547BE01E55477A00882164 /* 去掉tableView的headerView的粘性.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "去掉tableView的headerView的粘性.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13547BE41E55477A00882164 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13547BE61E55477A00882164 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		13547BE71E55477A00882164 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		13547BE91E55477A00882164 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		13547BEA1E55477A00882164 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		13547BED1E55477A00882164 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13547BEF1E55477A00882164 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13547BF21E55477A00882164 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13547BF41E55477A00882164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13547BF91E55477A00882164 /* 去掉tableView的headerView的粘性Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "去掉tableView的headerView的粘性Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13547BFD1E55477A00882164 /* __tableView_headerView___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__tableView_headerView___Tests.m"; sourceTree = "<group>"; };
+		13547BFF1E55477A00882164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13547C041E55477A00882164 /* 去掉tableView的headerView的粘性UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "去掉tableView的headerView的粘性UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13547C081E55477A00882164 /* __tableView_headerView___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__tableView_headerView___UITests.m"; sourceTree = "<group>"; };
+		13547C0A1E55477A00882164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13547BDD1E55477A00882164 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13547BF61E55477A00882164 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13547C011E55477A00882164 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13547BD71E55477A00882164 = {
+			isa = PBXGroup;
+			children = (
+				13547BE21E55477A00882164 /* 去掉tableView的headerView的粘性 */,
+				13547BFC1E55477A00882164 /* 去掉tableView的headerView的粘性Tests */,
+				13547C071E55477A00882164 /* 去掉tableView的headerView的粘性UITests */,
+				13547BE11E55477A00882164 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13547BE11E55477A00882164 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13547BE01E55477A00882164 /* 去掉tableView的headerView的粘性.app */,
+				13547BF91E55477A00882164 /* 去掉tableView的headerView的粘性Tests.xctest */,
+				13547C041E55477A00882164 /* 去掉tableView的headerView的粘性UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13547BE21E55477A00882164 /* 去掉tableView的headerView的粘性 */ = {
+			isa = PBXGroup;
+			children = (
+				13547BE61E55477A00882164 /* AppDelegate.h */,
+				13547BE71E55477A00882164 /* AppDelegate.m */,
+				13547BE91E55477A00882164 /* ViewController.h */,
+				13547BEA1E55477A00882164 /* ViewController.m */,
+				13547BEC1E55477A00882164 /* Main.storyboard */,
+				13547BEF1E55477A00882164 /* Assets.xcassets */,
+				13547BF11E55477A00882164 /* LaunchScreen.storyboard */,
+				13547BF41E55477A00882164 /* Info.plist */,
+				13547BE31E55477A00882164 /* Supporting Files */,
+			);
+			path = "去掉tableView的headerView的粘性";
+			sourceTree = "<group>";
+		};
+		13547BE31E55477A00882164 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13547BE41E55477A00882164 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13547BFC1E55477A00882164 /* 去掉tableView的headerView的粘性Tests */ = {
+			isa = PBXGroup;
+			children = (
+				13547BFD1E55477A00882164 /* __tableView_headerView___Tests.m */,
+				13547BFF1E55477A00882164 /* Info.plist */,
+			);
+			path = "去掉tableView的headerView的粘性Tests";
+			sourceTree = "<group>";
+		};
+		13547C071E55477A00882164 /* 去掉tableView的headerView的粘性UITests */ = {
+			isa = PBXGroup;
+			children = (
+				13547C081E55477A00882164 /* __tableView_headerView___UITests.m */,
+				13547C0A1E55477A00882164 /* Info.plist */,
+			);
+			path = "去掉tableView的headerView的粘性UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13547BDF1E55477A00882164 /* 去掉tableView的headerView的粘性 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13547C0D1E55477A00882164 /* Build configuration list for PBXNativeTarget "去掉tableView的headerView的粘性" */;
+			buildPhases = (
+				13547BDC1E55477A00882164 /* Sources */,
+				13547BDD1E55477A00882164 /* Frameworks */,
+				13547BDE1E55477A00882164 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "去掉tableView的headerView的粘性";
+			productName = "去掉tableView的headerView的粘性";
+			productReference = 13547BE01E55477A00882164 /* 去掉tableView的headerView的粘性.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13547BF81E55477A00882164 /* 去掉tableView的headerView的粘性Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13547C101E55477A00882164 /* Build configuration list for PBXNativeTarget "去掉tableView的headerView的粘性Tests" */;
+			buildPhases = (
+				13547BF51E55477A00882164 /* Sources */,
+				13547BF61E55477A00882164 /* Frameworks */,
+				13547BF71E55477A00882164 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13547BFB1E55477A00882164 /* PBXTargetDependency */,
+			);
+			name = "去掉tableView的headerView的粘性Tests";
+			productName = "去掉tableView的headerView的粘性Tests";
+			productReference = 13547BF91E55477A00882164 /* 去掉tableView的headerView的粘性Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13547C031E55477A00882164 /* 去掉tableView的headerView的粘性UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13547C131E55477A00882164 /* Build configuration list for PBXNativeTarget "去掉tableView的headerView的粘性UITests" */;
+			buildPhases = (
+				13547C001E55477A00882164 /* Sources */,
+				13547C011E55477A00882164 /* Frameworks */,
+				13547C021E55477A00882164 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13547C061E55477A00882164 /* PBXTargetDependency */,
+			);
+			name = "去掉tableView的headerView的粘性UITests";
+			productName = "去掉tableView的headerView的粘性UITests";
+			productReference = 13547C041E55477A00882164 /* 去掉tableView的headerView的粘性UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13547BD81E55477A00882164 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Xuetao;
+				TargetAttributes = {
+					13547BDF1E55477A00882164 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PMMD8U2424;
+						ProvisioningStyle = Automatic;
+					};
+					13547BF81E55477A00882164 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PMMD8U2424;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 13547BDF1E55477A00882164;
+					};
+					13547C031E55477A00882164 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PMMD8U2424;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 13547BDF1E55477A00882164;
+					};
+				};
+			};
+			buildConfigurationList = 13547BDB1E55477A00882164 /* Build configuration list for PBXProject "去掉tableView的headerView的粘性" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13547BD71E55477A00882164;
+			productRefGroup = 13547BE11E55477A00882164 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13547BDF1E55477A00882164 /* 去掉tableView的headerView的粘性 */,
+				13547BF81E55477A00882164 /* 去掉tableView的headerView的粘性Tests */,
+				13547C031E55477A00882164 /* 去掉tableView的headerView的粘性UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13547BDE1E55477A00882164 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13547BF31E55477A00882164 /* LaunchScreen.storyboard in Resources */,
+				13547BF01E55477A00882164 /* Assets.xcassets in Resources */,
+				13547BEE1E55477A00882164 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13547BF71E55477A00882164 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13547C021E55477A00882164 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13547BDC1E55477A00882164 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13547BEB1E55477A00882164 /* ViewController.m in Sources */,
+				13547BE81E55477A00882164 /* AppDelegate.m in Sources */,
+				13547BE51E55477A00882164 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13547BF51E55477A00882164 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13547BFE1E55477A00882164 /* __tableView_headerView___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13547C001E55477A00882164 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13547C091E55477A00882164 /* __tableView_headerView___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13547BFB1E55477A00882164 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13547BDF1E55477A00882164 /* 去掉tableView的headerView的粘性 */;
+			targetProxy = 13547BFA1E55477A00882164 /* PBXContainerItemProxy */;
+		};
+		13547C061E55477A00882164 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13547BDF1E55477A00882164 /* 去掉tableView的headerView的粘性 */;
+			targetProxy = 13547C051E55477A00882164 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13547BEC1E55477A00882164 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13547BED1E55477A00882164 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13547BF11E55477A00882164 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13547BF21E55477A00882164 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13547C0B1E55477A00882164 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13547C0C1E55477A00882164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13547C0E1E55477A00882164 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PMMD8U2424;
+				INFOPLIST_FILE = "去掉tableView的headerView的粘性/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xt.--tableView-headerView---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		13547C0F1E55477A00882164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PMMD8U2424;
+				INFOPLIST_FILE = "去掉tableView的headerView的粘性/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xt.--tableView-headerView---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		13547C111E55477A00882164 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PMMD8U2424;
+				INFOPLIST_FILE = "去掉tableView的headerView的粘性Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xt.--tableView-headerView---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/去掉tableView的headerView的粘性.app/去掉tableView的headerView的粘性";
+			};
+			name = Debug;
+		};
+		13547C121E55477A00882164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PMMD8U2424;
+				INFOPLIST_FILE = "去掉tableView的headerView的粘性Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xt.--tableView-headerView---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/去掉tableView的headerView的粘性.app/去掉tableView的headerView的粘性";
+			};
+			name = Release;
+		};
+		13547C141E55477A00882164 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PMMD8U2424;
+				INFOPLIST_FILE = "去掉tableView的headerView的粘性UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xt.--tableView-headerView---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "去掉tableView的headerView的粘性";
+			};
+			name = Debug;
+		};
+		13547C151E55477A00882164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PMMD8U2424;
+				INFOPLIST_FILE = "去掉tableView的headerView的粘性UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xt.--tableView-headerView---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "去掉tableView的headerView的粘性";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13547BDB1E55477A00882164 /* Build configuration list for PBXProject "去掉tableView的headerView的粘性" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13547C0B1E55477A00882164 /* Debug */,
+				13547C0C1E55477A00882164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13547C0D1E55477A00882164 /* Build configuration list for PBXNativeTarget "去掉tableView的headerView的粘性" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13547C0E1E55477A00882164 /* Debug */,
+				13547C0F1E55477A00882164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		13547C101E55477A00882164 /* Build configuration list for PBXNativeTarget "去掉tableView的headerView的粘性Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13547C111E55477A00882164 /* Debug */,
+				13547C121E55477A00882164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		13547C131E55477A00882164 /* Build configuration list for PBXNativeTarget "去掉tableView的headerView的粘性UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13547C141E55477A00882164 /* Debug */,
+				13547C151E55477A00882164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13547BD81E55477A00882164 /* Project object */;
+}
